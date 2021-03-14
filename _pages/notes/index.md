@@ -4,4 +4,8 @@
 
 layout: home
 author_profile: true
+permalink: "/notes"
+title: Vincent's Notes
 ---
+
+Like a blog, but without the audience, the purpose, or the regular posts.
