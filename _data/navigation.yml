@@ -1,9 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://vincent-gammill.netlify.app/
+  - title: "Portfolio"
+    url: https://vincent-gammill.netlify.app/portfolio
+  - title: "Resume"
+    url: https://vincent-gammill.netlify.app/resume
+  - title: "Notes"
+    url: https://vincent-gammill.netlify.app/notes
+  #   url: https://vincent-gammill.netlify.app/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
