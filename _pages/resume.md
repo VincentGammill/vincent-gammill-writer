@@ -1,101 +1,48 @@
 ---
 permalink: /resume
-title: "Resume"
-#classes: wide
+title: "Résumé"
+layout: resume 
+# custom layout I made, mainly to add my table of skills to the sidebar.
+# No other pages should use this layout, so any breakage on upgrade should
+# be limited to this page.
+classes: wide
 ---
 
-## Skills
-<table class="ui celled table">
-  <thead></thead>
-  <tbody>
-    <tr>
-      <td data-label="Skill"><span class="fas fa-edit"></span> Writing and Editing</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-html5"></span> HTML</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-markdown"></span> Markdown</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star-half-alt rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fa fa-code"></span> Structured Authoring and DITA</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-css3"></span> CSS</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star-half-alt rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fas fa-database"></span> SQL</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star-half-alt rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-linux"></span> Linux</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star-half-alt rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-python"></span> Python</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="far fa-star rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Skill"><span class="fab fa-git-alt"></span> Git</td>
-      <td data-label="Level">
-        <span class="fa fa-star rated"></span>
-        <span class="fa fa-star rated"></span>
-        <span class="far fa-star rated"></span>
-        <span class="far fa-star rated"></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!-- Commenting out for now, found a hacky way to include this in the sidebar
+## Technical Skills
+{% include_relative skill-table.html %}
+-->
+[Download résumé](Vincent Gammill Resume.pdf)
+
+## Education
+B.A. Physics, [Hendrix College](https://www.hendrix.edu/), 2014  
+4.0 GPA, _Phi Beta Kappa_, _Summa Cum Laude_
 
 ## Experience
-
 ### Technical Writer | [Epic Systems](https://www.epic.com/) 
-_11/2017 - Present_
+_11/2017 - Present_  
+For software critical to patient care and hospital revenue at large health 
+systems, I helped users learn about
+- New features and configuration options
+- Automatic changes in a highly regulated industry
+- User interface changes that required training
+
+I collaborated with development teams that created software for creating 
+medical insurance claims and exchanging patient data with external systems.
+
+I transferred to my team on short notice after both writers for that team 
+left the company. I covered the work alone for three months and met all 
+documentation deadlines.
 
 ### Science Teacher | [Little Rock Central High](https://www.lrcentralhigh.net/) 
-_08/2015 - 05/2017_
+_08/2015 - 05/2017_  
+While teaching chemistry and physics, I fostered an inclusive and supportive 
+learning environment for students with diverse needs. I engaged parents 
+whenever student success was at risk.
+
+## Soft Skills
+- I keep asking questions until I understand.
+- I use direct and concise language.
+- I speak in front of groups confidently.
+- I work best in a collaborative environment. 
+- My favorite work experiences involve both learning and teaching.
