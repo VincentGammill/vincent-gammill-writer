@@ -41,6 +41,11 @@ author:
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/vincent-gammill-16772486/"
+
+collections: 
+  portfolio:
+    output: true
+    permalink: /:collection/:title
         
 # Build settings
 theme: minimal-mistakes-jekyll
